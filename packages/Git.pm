@@ -5,10 +5,11 @@ package Git;
 
 $Git::gitUrl = "http://github.com/wntr";
 %Git::branches = (
-  "wntr/core" => "$Git::gitUrl/core",
-  "wntr/data" => "$Git::gitUrl/data",
-  "wntr/ntwk" => "$Git::gitUrl/ling",
-  "wntr/ling" => "$Git::gitUrl/ntwk",
+  "wntr/core"    => "$Git::gitUrl/core",
+  "wntr/data"    => "$Git::gitUrl/data",
+  "wntr/ntwk"    => "$Git::gitUrl/ling",
+  "wntr/ling"    => "$Git::gitUrl/ntwk",
+  "wntr/plugins" => "$Git::gitUrl/plugins",
 );
 
 %Git::commands = (
