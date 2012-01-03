@@ -3,5 +3,10 @@
 
 use strict;
 use warnings;
+
+use packages::Global;
 use packages::Configuration;
+use packages::Build;
 use packages::Git;
+
+Global::init;
