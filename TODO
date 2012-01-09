@@ -1,0 +1,12 @@
+* Pull code from GitHub:
+  - core
+  - data
+  - ling
+  - ntwk
+  - plugins
+* Allow updating of SDK's code (via pull from GitHub)
+* Save configuration to disk (Git commit name, Git URI base)
+* Allow plug-in building and creation.
+* Allow generation of Git messages.
+* Allow generation of CMake build files using global definitions.
+* Allow full building of plugins and components.
